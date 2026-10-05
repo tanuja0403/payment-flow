@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+
+    <CdtTrfTxInf>
+
+        <!-- ============================== -->
+        <!-- PAYMENT IDENTIFICATION -->
+        <!-- ============================== -->
+
+        <PmtId>
+
+            <InstrId>
+                P0001
+            </InstrId>
+
+            <EndToEndId>
+                E2E0001
+            </EndToEndId>
+
+        </PmtId>
+
+
+        <!-- ============================== -->
+        <!-- AMOUNT -->
+        <!-- ============================== -->
+
+        <Amt>
+
+            <InstdAmt Ccy="USD">
+                1500.00
+            </InstdAmt>
+
+        </Amt>
+
+
+        <!-- ============================== -->
+        <!-- DEBTOR / SENDER -->
+        <!-- ============================== -->
+
+        <Dbtr>
+
+            <Nm>
+                ABC Corporation
+            </Nm>
+
+            <PstlAdr>
+
+                <StrtNm>
+                    Market Street
+                </StrtNm>
+
+                <BldgNb>
+                    100
+                </BldgNb>
+
+                <PstCd>
+                    94105
+                </PstCd>
+
+                <TwnNm>
+                    San Francisco
+                </TwnNm>
+
+                <Ctry>
+                    US
+                </Ctry>
+
+            </PstlAdr>
+
+        </Dbtr>
+
+
+        <!-- ============================== -->
+        <!-- CREDITOR / BENEFICIARY -->
+        <!-- ============================== -->
+
+        <Cdtr>
+
+            <Nm>
+                John Smith
+            </Nm>
+
+            <PstlAdr>
+
+                <StrtNm>
+                    Main Street
+                </StrtNm>
+
+                <BldgNb>
+                    123
+                </BldgNb>
+
+                <PstCd>
+                    10001
+                </PstCd>
+
+                <TwnNm>
+                    New York
+                </TwnNm>
+
+                <Ctry>
+                    US
+                </Ctry>
+
+            </PstlAdr>
+
+        </Cdtr>
+
+    </CdtTrfTxInf>
+
+</Document>

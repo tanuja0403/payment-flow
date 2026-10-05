@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+
+    <CdtTrfTxInf>
+        <PmtId>
+            <InstrId>P0004</InstrId>
+            <EndToEndId>E2E0004</EndToEndId>
+        </PmtId>
+
+        <Amt>
+            <InstdAmt Ccy="USD">4750.25</InstdAmt>
+        </Amt>
+
+        <Dbtr>
+            <Nm>Tech Solutions Inc</Nm>
+            <PstlAdr>
+                <StrtNm>Market Street</StrtNm>
+                <BldgNb>250</BldgNb>
+                <PstCd>94105</PstCd>
+                <TwnNm>San Francisco</TwnNm>
+                <Ctry>US</Ctry>
+            </PstlAdr>
+        </Dbtr>
+
+        <Cdtr>
+            <Nm>Global Trading Ltd</Nm>
+            <PstlAdr>
+                <AdrLine>45 Oxford Road</AdrLine>
+                <AdrLine>London EC1A 1BB</AdrLine>
+                <Ctry>GB</Ctry>
+            </PstlAdr>
+        </Cdtr>
+    </CdtTrfTxInf>
+
+</Document>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.09">
+  <CstmrCdtTrfInitn>
+    <GrpHdr>
+      <MsgId>TEST-PHASE9-001</MsgId>
+      <CreDtTm>2026-09-11T11:00:00</CreDtTm>
+      <NbOfTxs>5</NbOfTxs>
+      <CtrlSum>10175.50</CtrlSum>
+      <InitgPty><Nm>Hack Project Test Company</Nm></InitgPty>
+    </GrpHdr>
+    <PmtInf>
+      <PmtInfId>PMT-PHASE9-001</PmtInfId>
+      <PmtMtd>TRF</PmtMtd>
+      <NbOfTxs>5</NbOfTxs>
+      <CtrlSum>10175.50</CtrlSum>
+      <Dbtr>
+        <Nm>Tech Solutions Inc</Nm>
+        <PstlAdr>
+          <StrtNm>Market Street</StrtNm><BldgNb>250</BldgNb>
+          <PstCd>94105</PstCd><TwnNm>San Francisco</TwnNm><Ctry>US</Ctry>
+        </PstlAdr>
+      </Dbtr>
+      <DbtrAcct><Id><IBAN>US00TEST000000000001</IBAN></Id></DbtrAcct>
+
+      <CdtTrfTxInf>
+        <PmtId><InstrId>INST001</InstrId><EndToEndId>E2E001</EndToEndId></PmtId>
+        <Amt><InstdAmt Ccy="USD">1500.00</InstdAmt></Amt>
+        <Cdtr><Nm>Global Trading Ltd</Nm><PstlAdr>
+          <StrtNm>Oxford Road</StrtNm><BldgNb>45</BldgNb>
+          <PstCd>EC1A1BB</PstCd><TwnNm>London</TwnNm><Ctry>GB</Ctry>
+        </PstlAdr></Cdtr>
+        <CdtrAcct><Id><IBAN>GB00TEST000000000001</IBAN></Id></CdtrAcct>
+      </CdtTrfTxInf>
+
+      <CdtTrfTxInf>
+        <PmtId><InstrId>INST002</InstrId><EndToEndId>E2E002</EndToEndId></PmtId>
+        <Amt><InstdAmt Ccy="EUR">2750.25</InstdAmt></Amt>
+        <Cdtr><Nm>European Parts GmbH</Nm><PstlAdr>
+          <AdrLine>12 Hauptstrasse, 60311 Frankfurt, DE</AdrLine>
+        </PstlAdr></Cdtr>
+        <CdtrAcct><Id><IBAN>DE00TEST000000000002</IBAN></Id></CdtrAcct>
+      </CdtTrfTxInf>
+
+      <CdtTrfTxInf>
+        <PmtId><InstrId>INST003</InstrId><EndToEndId>E2E003</EndToEndId></PmtId>
+        <Amt><InstdAmt Ccy="GBP">800.00</InstdAmt></Amt>
+        <Cdtr><Nm>London Services Ltd</Nm></Cdtr>
+        <CdtrAcct><Id><IBAN>GB00TEST000000000003</IBAN></Id></CdtrAcct>
+      </CdtTrfTxInf>
+
+      <CdtTrfTxInf>
+        <PmtId><InstrId>INST004</InstrId><EndToEndId>E2E004</EndToEndId></PmtId>
+        <Amt><InstdAmt Ccy="USD">-500.00</InstdAmt></Amt>
+        <Cdtr><Nm>US Components LLC</Nm><PstlAdr>
+          <StrtNm>Main Street</StrtNm><BldgNb>100</BldgNb>
+          <PstCd>10001</PstCd><TwnNm>New York</TwnNm><Ctry>US</Ctry>
+        </PstlAdr></Cdtr>
+        <CdtrAcct><Id><IBAN>US00TEST000000000004</IBAN></Id></CdtrAcct>
+      </CdtTrfTxInf>
+
+      <CdtTrfTxInf>
+        <PmtId><InstrId>INST005</InstrId><EndToEndId>E2E005</EndToEndId></PmtId>
+        <Amt><InstdAmt Ccy="INR">5125.25</InstdAmt></Amt>
+        <Cdtr><PstlAdr>
+          <StrtNm>MG Road</StrtNm><BldgNb>22</BldgNb>
+          <PstCd>560001</PstCd><TwnNm>Bengaluru</TwnNm><Ctry>IN</Ctry>
+        </PstlAdr></Cdtr>
+        <CdtrAcct><Id><IBAN>IN00TEST000000000005</IBAN></Id></CdtrAcct>
+      </CdtTrfTxInf>
+    </PmtInf>
+  </CstmrCdtTrfInitn>
+</Document>
